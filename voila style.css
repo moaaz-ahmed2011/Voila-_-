@@ -5,19 +5,10 @@
 }
 
 body {
+    font-family: Arial, sans-serif;
     background-color: #741f8a;
-    color: white;
-    font-size: 18px;
+    color: #000000;
 }
-
-@media (max-width: 768px) {
-    body {
-        background-color: red;
-        color: black;
-        font-size: 14px;
-    }
-}
-
 
 header {
     background-color: #000000;
@@ -28,22 +19,6 @@ header {
 
 header .logo h1 {
     font-size: 2.5rem;
-}
-
-nav ul {
-    list-style: none;
-    margin-top: 10px;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
 }
 
 .hero {
@@ -91,8 +66,8 @@ nav ul li a {
 }
 
 .product-card img {
-    width: 100%;
-    height: auto;
+    width: 70%;
+    height: 80%;
     border-radius: 10px;
 }
 
@@ -182,8 +157,8 @@ footer {
 
 .carousel-images img {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 80%;
     object-fit: cover; 
     display: none;
     border-radius: 10px;
@@ -235,3 +210,42 @@ footer {
     width: 48px;
     height: 48px;
 }
+
+.VLoccc {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #741f8a; 
+    z-index: 1000; 
+}
+
+  .Pvc6xe {
+  }
+
+  .TlfmSc {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .GAuSPc {
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+    color: inherit; 
+  }
+
+  .lzy1Td {
+    width: 56px; 
+    height: 56px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+  }
+
+  .QTKDff {
+    font-size: 30px;
+  }
+
+  .zDUgLc {
+  }
